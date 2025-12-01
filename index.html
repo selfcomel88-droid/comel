@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comel - Sua Parceira em Vendas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo-link"><img src="images/logo-colmel.png" alt="Logo da Colmel" class="logo-image"></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#garantia-atuacao">Garantia</a></li>
+                    <li><a href="#videos">Vídeos</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#padrao-energia">Padrão de Energia</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero"><div class="container"><h2 class="hero-title">Qualidade e Confiança em Cada Produto</h2><p class="hero-subtitle">As melhores soluções para o seu negócio estão aqui.</p></div></section>
+
+        <section id="garantia-atuacao" class="section">
+            <div class="container">
+                 <h2 class="section-title">Nossa Garantia Chega Até Você!</h2>
+                 <p class="section-subtitle">Entregas rápidas, seguras e com a qualidade que a sua cidade merece.</p>
+                 <div id="garantia-slider" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="images/atuacao-1.png" alt="Região de atendimento: Dracena e Tupi Paulista"></li>
+                            <li class="splide__slide"><img src="images/atuacao-2.png" alt="Região de atendimento: Adamantina e Pacaembu"></li>
+                            <li class="splide__slide"><img src="images/atuacao-3.png" alt="Região de atendimento: Brasilândia-MS e Panorama"></li>
+                            <li class="splide__slide"><img src="images/atuacao-4.png" alt="Região de atendimento: Bataguassu-MS"></li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE VÍDEOS (NOVA POSIÇÃO) -->
+        <section id="videos" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Veja Nossos Produtos em alta</h2>
+                <div class="videos-grid">
+                    <div class="video-card" data-video-src="videos/video-1.mp4"><h3 class="video-title"><i class="fas fa-film"></i> Quadros de Distribuição</h3><img src="images/video-poster-1.jpg" alt="Quadros de distribuição Weg e Soprano"><div class="play-icon"><i class="fas fa-play"></i></div></div>
+                    <div class="video-card" data-video-src="videos/video-2.mp4"><h3 class="video-title"><i class="fas fa-film"></i> Cabos Elétricos</h3><img src="images/video-poster-2.jpg" alt="Cabos elétricos da Cabel"><div class="play-icon"><i class="fas fa-play"></i></div></div>
+                    <div class="video-card" data-video-src="videos/video-3.mp4"><h3 class="video-title"><i class="fas fa-film"></i> Fechadura Digital</h3><img src="images/video-poster-3.jpg" alt="Fechadura digital Weg Smart Home"><div class="play-icon"><i class="fas fa-play"></i></div></div>
+                    <div class="video-card" data-video-src="videos/video-4.mp4"><h3 class="video-title"><i class="fas fa-film"></i> Tomadas e Interruptores</h3><img src="images/video-poster-4.jpg" alt="Linha de tomadas Weg Composé"><div class="play-icon"><i class="fas fa-play"></i></div></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="produtos" class="section">
+            <div class="container">
+                <h2 class="section-title">Nossa Variedade de Produtos</h2>
+                <div id="produtos-slider" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><div class="produto-card" data-category="alicates"><img src="images/produtos-alicates.JPG" alt="Alicates"><h3 class="produto-title">Alicates</h3></div></li>
+                            <li class="splide__slide"><div class="produto-card" data-category="carrinhos"><img src="images/produtos-carrinhos.JPG" alt="Carrinhos de Mão"><h3 class="produto-title">Carrinhos de Mão</h3></div></li>
+                            <li class="splide__slide"><div class="produto-card" data-category="ferramentas"><img src="images/produtos-chaves.JPG" alt="Chaves de Fenda"><h3 class="produto-title">Ferramentas Manuais</h3></div></li>
+                            <li class="splide__slide"><div class="produto-card" data-category="escadas"><img src="images/produtos-escadas.JPG" alt="Escadas e Bancos"><h3 class="produto-title">Escadas e Andaimes</h3></div></li>
+                            <li class="splide__slide"><div class="produto-card" data-category="epis"><img src="images/produtos-epis.JPG" alt="Equipamentos de Proteção"><h3 class="produto-title">Equipamentos de Proteção</h3></div></li>
+                            <li class="splide__slide"><div class="produto-card" data-category="tomadas"><img src="images/produtos-tomadas.JPG" alt="Tomadas e Interruptores"><h3 class="produto-title">Tomadas</h3></div></li>
+                            <li class="splide__slide"><div class="produto-card" data-category="parafusadeiras"><img src="images/produtos-parafusadeira.JPG" alt="Parafusadeiras"><h3 class="produto-title">Parafusadeiras</h3></div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="padrao-energia" class="section bg-light">
+            <div class="container">
+                <div class="padrao-container">
+                    <div class="padrao-imagem"><img src="images/servico-padrao-energia.png" alt="Banner do serviço de Padrão de Energia da Comel"></div>
+                    <div class="padrao-texto">
+                        <h2>Precisando de Padrão de Energia?</h2>
+                        <p>Oferecemos a solução completa para o seu projeto, com materiais de alta qualidade e instalação seguindo todas as normas de segurança. Fale com um de nossos especialistas e solicite um orçamento sem compromisso.</p>
+                        <a href="https://api.whatsapp.com/send?phone=5518997991201&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20Padr%C3%A3o%20de%20Energia." class="btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="marcas" class="section">
+            <div class="container">
+                <h2 class="section-title">Nossas Principais Marcas</h2>
+                <div id="marcas-slider" class="splide">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><a href="https://www.weg.net/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/weg.png" alt="Logo da Marca Weg"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.soprano.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/soprano.png" alt="Logo da Marca Soprano"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.cabel.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/cabel.png" alt="Logo da Marca Cabel"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.margirius.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/margirius.png" alt="Logo da Marca Margirius"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.censi.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/censi.png" alt="Logo da Marca Censi"></div></a></li>
+                            <li class="splide__slide"><a href="https://deltametais.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/delta-metais.png" alt="Logo da Marca Delta Metais"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.leaometais.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/leao.png" alt="Logo da Marca Leao"></div></a></li>
+                            <li class="splide__slide"><a href="#" class="marca-link"><div class="marca-item"><img src="images/ribeiro-metais.png" alt="Logo da Marca Ribeiro Metais"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.galaxyled.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/galaxy-led.png" alt="Logo da Marca Galaxy Led"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.avant.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/avant.png" alt="Logo da Marca Avant"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.taschibra.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/taschibra.png" alt="Logo da Marca Taschibra"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.3m.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/3m.png" alt="Logo da Marca 3M"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.docol.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/docol.png" alt="Logo da Marca Docol"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.plastilit.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/plastilit.png" alt="Logo da Marca Plastilit"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.intelli.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/intelli.png" alt="Logo da Marca Intelli"></div></a></li>
+                            <li class="splide__slide"><a href="https://www.taf.com.br/" target="_blank" rel="noopener noreferrer" class="marca-link"><div class="marca-item"><img src="images/taf.png" alt="Logo da Marca Taf"></div></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pilares" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Mais Motivos para Escolher a Comel</h2>
+                <div class="pilares-grid">
+                    <div class="pilar-card"><img src="images/confianca.jpg" alt="Profissional confiante"><h3 class="pilar-title">Confiança</h3><p class="pilar-description">Atendimento e Parceria!</p></div>
+                    <div class="pilar-card"><img src="images/qualidade.jpg" alt="Produtos de alta qualidade"><h3 class="pilar-title">Qualidade</h3><p class="pilar-description">As melhores marcas!</p></div>
+                    <div class="pilar-card"><img src="images/custo.jpg" alt="Clientes satisfeitos"><h3 class="pilar-title">Custo</h3><p class="pilar-description">Melhor custo benefício!</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="missao" class="section"><div class="container"><h2 class="section-title">Nossa Missão</h2><p>"Oferecer soluções inovadoras e de alta qualidade em vendas, superando as expectativas de nossos clientes através de um atendimento de excelência, parcerias estratégicas e um compromisso constante com a ética e o desenvolvimento sustentável."</p></div></section>
+        <section id="visao" class="section bg-light"><div class="container"><h2 class="section-title">Nossa Visão</h2><p>"Ser a empresa líder e referência no mercado de vendas, reconhecida pela inovação, confiabilidade e pela criação de valor para clientes, colaboradores e para a sociedade, expandindo nossa presença de forma consistente e sólida."</p></div></section>
+        <section id="contato" class="section"><div class="container"><h2 class="section-title">Entre em Contato</h2><div class="contact-info"><p><i class="fas fa-map-marker-alt"></i> Visite nossa loja:</p><p class="address">Av. Rui Barbosa, 959<br>Dracena/SP - CEP 17900-000</p></div><a href="https://api.whatsapp.com/send?phone=5518997991201&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn-whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> Iniciar Conversa no WhatsApp</a></div></section>
+    </main>
+    
+    <a href="https://api.whatsapp.com/send?phone=5518997991201&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <footer class="footer"><div class="container"><div class="footer-content"><p class="footer-address"><i class="fas fa-map-marker-alt"></i> Av. Rui Barbosa, 959 - Dracena/SP</p><p class="footer-copyright">© 2025 Comel. Todos os direitos reservados.</p><div class="footer-social"><a href="https://www.instagram.com/comeldracena?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Siga-nos no Instagram"><i class="fab fa-instagram"></i></a></div></div></div></footer>
+
+    <div id="productsModal" class="modal-container">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2 id="modalTitle" class="section-title"></h2>
+            <div id="modalGrid" class="products-detail-grid"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
